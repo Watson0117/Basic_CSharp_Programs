@@ -1,0 +1,13 @@
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\bin\Debug\netcoreapp3.1\AcmeAccounting.exe
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\bin\Debug\netcoreapp3.1\AcmeAccounting.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\bin\Debug\netcoreapp3.1\AcmeAccounting.runtimeconfig.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\bin\Debug\netcoreapp3.1\AcmeAccounting.runtimeconfig.dev.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\bin\Debug\netcoreapp3.1\AcmeAccounting.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\bin\Debug\netcoreapp3.1\AcmeAccounting.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.csproj.AssemblyReference.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.AssemblyInfoInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.AssemblyInfo.cs
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.genruntimeconfig.cache
