@@ -20,8 +20,8 @@ namespace DailyReport
 
             Console.WriteLine("Do you need help with anything? Please answer \"true\" or \"false.\"");
             string NeedHelp = Console.ReadLine(); // This line sets a string value.
-            bool DoseNeedHelp = Convert.ToBoolean(NeedHelp);
-            if(DoseNeedHelp)
+            bool DoseNeedHelp = Convert.ToBoolean(NeedHelp); // this line converts the string to a bool value
+            if(DoseNeedHelp) // This line makes the console.writeline below appear if the answer is true
             {
                 Console.WriteLine("You have indicated you need assistance. We will contact you shortly");
             }
