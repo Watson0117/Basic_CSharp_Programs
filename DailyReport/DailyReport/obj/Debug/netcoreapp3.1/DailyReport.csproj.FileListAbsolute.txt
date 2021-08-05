@@ -1,0 +1,13 @@
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\obj\Debug\netcoreapp3.1\DailyReport.csproj.AssemblyReference.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\obj\Debug\netcoreapp3.1\DailyReport.AssemblyInfoInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\obj\Debug\netcoreapp3.1\DailyReport.AssemblyInfo.cs
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\obj\Debug\netcoreapp3.1\DailyReport.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\bin\Debug\netcoreapp3.1\DailyReport.exe
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\bin\Debug\netcoreapp3.1\DailyReport.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\bin\Debug\netcoreapp3.1\DailyReport.runtimeconfig.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\bin\Debug\netcoreapp3.1\DailyReport.runtimeconfig.dev.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\bin\Debug\netcoreapp3.1\DailyReport.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\bin\Debug\netcoreapp3.1\DailyReport.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\obj\Debug\netcoreapp3.1\DailyReport.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\obj\Debug\netcoreapp3.1\DailyReport.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DailyReport\DailyReport\obj\Debug\netcoreapp3.1\DailyReport.genruntimeconfig.cache
