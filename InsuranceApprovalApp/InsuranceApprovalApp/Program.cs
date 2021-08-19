@@ -19,12 +19,12 @@ namespace InsuranceApprovalApp
             string SPT = Console.ReadLine();// this line get use input
             int HasSPT = Convert.ToInt32(SPT); // this line converts the string SPT to an int value saved as HasSPT
 
-            if (currentAge >= 15 && DoseHaveDUI == false && HasSPT <= 3) // This line makes sure they are above 15, have no DUI, and Has less that 3 Speeding tickets
+            if (currentAge > 15 && DoseHaveDUI == false && HasSPT < 3) // This line makes sure they are above 15, have no DUI, and Has less that 3 Speeding tickets
             {
                 Console.WriteLine("Qualified \ntrue"); // If they meet all the above requierments then it will print Qualified 
             }
 
-            if (currentAge <= 15 || DoseHaveDUI == true || HasSPT >= 3) // This line makes sure they are above 15, have no DUI, and Has less that 3 Speeding tickets
+            if (currentAge < 16 || DoseHaveDUI == true || HasSPT > 3) // This line makes sure they are above 15, have no DUI, and Has less that 3 Speeding tickets
             {
                 Console.WriteLine("Qualified \nfalse"); // if they dont meet one of the requierments it will print this line
             }
