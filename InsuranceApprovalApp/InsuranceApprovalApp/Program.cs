@@ -23,11 +23,15 @@ namespace InsuranceApprovalApp
             {
                 Console.WriteLine("Qualified \ntrue"); // If they meet all the above requierments then it will print Qualified 
             }
-
-            if (currentAge < 16 || DoseHaveDUI == true || HasSPT > 3) // This line makes sure they are above 15, have no DUI, and Has less that 3 Speeding tickets
+            else
             {
-                Console.WriteLine("Qualified \nfalse"); // if they dont meet one of the requierments it will print this line
+                Console.WriteLine("Qualified \nfalse"); //if any of the above peramiters are false it will print this line instead.
             }
+
+            //if (currentAge < 16 || DoseHaveDUI == true || HasSPT > 3) // This line makes sure they are above 15, have no DUI, and Has less that 3 Speeding tickets
+            //{
+            //    Console.WriteLine("Qualified \nfalse"); // if they dont meet one of the requierments it will print this line
+            //}
         }
 
     }
