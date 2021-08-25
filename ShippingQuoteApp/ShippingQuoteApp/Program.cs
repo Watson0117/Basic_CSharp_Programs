@@ -44,8 +44,13 @@ namespace ShippingQuoteApp
             int PackageDimensions = (PackageWidth * PackageLength * PackageHeight);// this line creates Packagedimensions total
             int PackageValue = (PackageDimensions * PackageWeight);// this multplies the packages demension by the Packages weight
             int PackagePrice = (PackageValue / 100);// this take the results of Package value and divides it by 100 to get a price
-            Console.WriteLine("Your estimated total for shipping this package is:");// this line addes some text to make everything look better.
-            Console.WriteLine(PackagePrice.ToString("C"));// this line takes the price and changes it to a dollor amount and writes it to the console.
+
+            if (PackageHeight + PackageLength + PackageWidth < 50 && PackageWeight < 50)
+            {
+                Console.WriteLine("Your estimated total for shipping this package is:");// this line addes some text to make everything look better.
+                Console.WriteLine(PackagePrice.ToString("C"));// this line takes the price and changes it to a dollor amount and writes it to the console.
+            }
+    
         }
 
     }
