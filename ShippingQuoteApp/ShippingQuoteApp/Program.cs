@@ -35,7 +35,7 @@ namespace ShippingQuoteApp
             }
             else
             {
-                Console.WriteLine("Your package is ether too bi or to heavy to be shipped with express. Have a good day.");
+                Console.WriteLine("Your package is too big to be shipped with express. Have a good day.");
             }
     
         }
