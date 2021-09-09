@@ -12,6 +12,12 @@ namespace ShippingQuoteApp
             string PWTS = Console.ReadLine();
             int PackageWeight = Convert.ToInt32(PWTS);
 
+            if (PackageWeight > 50)
+            {
+                Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");// this line addes some text to make everything look better.
+                System.Environment.Exit(0);
+            }
+
             Console.WriteLine("Please enter your packages width");// this line write the question to the console
             string PWS = Console.ReadLine();// this line gets user input and store it as a string
             int PackageWidth = Convert.ToInt32(PWS);// this line converts it and stores it as an integer
@@ -25,6 +31,13 @@ namespace ShippingQuoteApp
             int PackageHeight = Convert.ToInt32(PHS);// this line converts it and stores it as an integer
 
             int PackageDimensions = (PackageWidth * PackageLength * PackageHeight);// this line creates Packagedimensions total
+
+            if (PackageWidth + PackageLength + PackageHeight > 50)
+            {
+                Console.WriteLine("Package too big to be shipped via Package Express.");// this line addes some text to make everything look better.
+                System.Environment.Exit(0);
+            }
+
             int PackageValue = (PackageDimensions * PackageWeight);// this multplies the packages demension by the Packages weight
             int PackagePrice = (PackageValue / 100);// this take the results of Package value and divides it by 100 to get a price
 
@@ -35,7 +48,7 @@ namespace ShippingQuoteApp
             }
             else
             {
-                Console.WriteLine("Your package is too big to be shipped with express. Have a good day.");
+                Console.WriteLine("Your package is too big to be shipped with express. Have a good day....");
             }
     
         }
