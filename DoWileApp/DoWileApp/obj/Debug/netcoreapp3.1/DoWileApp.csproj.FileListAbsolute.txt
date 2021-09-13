@@ -1,0 +1,13 @@
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\bin\Debug\netcoreapp3.1\DoWileApp.exe
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\bin\Debug\netcoreapp3.1\DoWileApp.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\bin\Debug\netcoreapp3.1\DoWileApp.runtimeconfig.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\bin\Debug\netcoreapp3.1\DoWileApp.runtimeconfig.dev.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\bin\Debug\netcoreapp3.1\DoWileApp.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\bin\Debug\netcoreapp3.1\DoWileApp.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\obj\Debug\netcoreapp3.1\DoWileApp.csproj.AssemblyReference.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\obj\Debug\netcoreapp3.1\DoWileApp.AssemblyInfoInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\obj\Debug\netcoreapp3.1\DoWileApp.AssemblyInfo.cs
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\obj\Debug\netcoreapp3.1\DoWileApp.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\obj\Debug\netcoreapp3.1\DoWileApp.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\obj\Debug\netcoreapp3.1\DoWileApp.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DoWileApp\DoWileApp\obj\Debug\netcoreapp3.1\DoWileApp.genruntimeconfig.cache
