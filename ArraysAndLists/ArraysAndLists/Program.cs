@@ -69,17 +69,18 @@ using System.Collections.Generic;
         //444444444444444444444444
         Console.WriteLine("Pick an array index between 0 and 1");
         List<string> intList = new List<string>();
-        intList.Add("Heloo");
+        intList.Add("Hello");
         intList.Add("mofo");
         int index2 = int.Parse(Console.ReadLine());
 
-        if (index < 3)
+        if (index < 2)
         {
             Console.WriteLine(intList[index]);
         }
         else
         {
             Console.WriteLine("Please pick an index between 0-1");
+            int.Parse(Console.ReadLine());
         }
         
 
