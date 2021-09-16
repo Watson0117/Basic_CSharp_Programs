@@ -1,0 +1,13 @@
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\bin\Debug\netcoreapp3.1\ArraysAndLists.exe
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\bin\Debug\netcoreapp3.1\ArraysAndLists.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\bin\Debug\netcoreapp3.1\ArraysAndLists.runtimeconfig.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\bin\Debug\netcoreapp3.1\ArraysAndLists.runtimeconfig.dev.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\bin\Debug\netcoreapp3.1\ArraysAndLists.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\bin\Debug\netcoreapp3.1\ArraysAndLists.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\obj\Debug\netcoreapp3.1\ArraysAndLists.csproj.AssemblyReference.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\obj\Debug\netcoreapp3.1\ArraysAndLists.AssemblyInfoInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\obj\Debug\netcoreapp3.1\ArraysAndLists.AssemblyInfo.cs
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\obj\Debug\netcoreapp3.1\ArraysAndLists.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\obj\Debug\netcoreapp3.1\ArraysAndLists.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\obj\Debug\netcoreapp3.1\ArraysAndLists.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ArraysAndLists\ArraysAndLists\obj\Debug\netcoreapp3.1\ArraysAndLists.genruntimeconfig.cache
