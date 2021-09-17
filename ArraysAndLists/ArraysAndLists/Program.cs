@@ -6,84 +6,56 @@ using System.Collections.Generic;
     {
         static void Main()
         {
-        //11111111111111111111
+        //1st array below
+        Console.WriteLine("Wwelcom to the 1st Array please select an index of the Array between 0 and 2");
+        string[] stringArray1 = new string[] { "Hello", "World", "Goodbye" };//This line creates the Array and sets the values
+        int UI1 = int.Parse(Console.ReadLine());// This line takes the users input and displays the corrisponding information form the list
 
-
-
-
-        //222222222222222222222222
-        Console.WriteLine("Pick an array index between 0 and 2");
-        int[] numArray1 = new int[] { 5, 2, 10 };
-        int index = int.Parse(Console.ReadLine());
-
-        do
+        if (UI1 > 2)//if the user input is invalid or out of range the following will trigger
         {
-            switch (index)
-            {
-                case 0: // 
-                    Console.WriteLine(numArray1[index]);
-
-                    break;// this line stope the program from continuing to the default
-
-                case 1:
-                    Console.WriteLine(numArray1[index]);
-                    break;
-
-                case 2:
-                    Console.WriteLine(numArray1[index]);
-                    break;
-
-                default: // this line set the default output when the user chooses out of index
-                    Console.WriteLine("Please choose an index between 0-2");
-                    Console.WriteLine("choose an index.");// this lina write to ask the user to give another guess
-                    int.Parse(Console.ReadLine());
-                    break;
-            }
+            Console.WriteLine("Invalid Index Selection, skipping, Press any key to continue");// This line will display if the user make and invalid index selection
         }
-        while (index >3);
-        Console.WriteLine(numArray1[index]);
-        Console.WriteLine("Press any key to continue.");
-        Console.ReadLine();
-
-        //333333333333333333333333
-        //Do wile loops or if else statments.
-
-        //do
-        //{
-        //    switch (number)
-        //    {
-        //        case 42: // this sets the correct answer to 42 anthing else will give the response below
-        //            Console.WriteLine("you choose correctly");
-        //            isGuessed = true;// this set the answer 42 as true makeing the below wile statmnet work
-        //            break;// this line stope the program from continuing to the default
-        //        default: // this line set the default output when the user dosent guess correctly
-        //            Console.WriteLine("you choose wrong, but you can guess again");
-        //            Console.WriteLine("Guess a number.");// this lina write to ask the user to give another guess
-        //            number = Convert.ToInt32(Console.ReadLine());
-        //            break;
-        //    }
-        //}
-        //while (!isGuessed);
-
-
-        //444444444444444444444444
-        Console.WriteLine("Pick an array index between 0 and 1");
-        List<string> intList = new List<string>();
-        intList.Add("Hello");
-        intList.Add("mofo");
-        int index2 = int.Parse(Console.ReadLine());
-
-        if (index < 2)
+        else//If the user input is withing range this will trigger
         {
-            Console.WriteLine(intList[index]);
+            Console.WriteLine(stringArray1[UI1]);//if the usre selects and index withing range this will write the value of that index to the console
+            Console.WriteLine("Press any key to continue to 2ND array.");//This line is mpre for me so i can tell where the program is at
+        }
+        Console.ReadLine();//This line cause the program to hold befor continuing to the next task. This is more for me to help keep track of where the program is
+
+        //2ND array
+        Console.WriteLine("Welcom to the 2ND Array please select an index of the Array between 0 and 2");
+        int[] numArray1 = new int[] { 5, 2, 10 };//This line creates the Array and sets the values
+        int UI2 = int.Parse(Console.ReadLine());// This line takes the users input and displays the corrisponding information form the Array
+
+
+        if (UI2 > 2)
+        {
+            Console.WriteLine("Invalid Index Selection, skipping, Press any key to continue");// if the used selects an index out of range this message will display
         }
         else
         {
-            Console.WriteLine("Please pick an index between 0-1");
-            int.Parse(Console.ReadLine());
+            Console.WriteLine(numArray1[UI2]);//if the usre selects and index withing range this will write the value of that index to the console
+            Console.WriteLine("Press any key to continue to Lists.");//This line is more for me so i can tell where the program is at
+        }
+        Console.ReadLine();//This line cause the program to hold befor continuing to the next task. This is more for me to help keep track of where the program is
+
+        //1ST List
+        Console.WriteLine("Welcom to the 1ST List please select an index of the List between 0 and 1");
+        List<string> intList = new List<string>();// this line craets the list 
+        intList.Add("Hello");//This line \/
+        intList.Add("mofo");//And this line add the strings Hello, and mofo to the list
+        int UI3 = int.Parse(Console.ReadLine());// This line takes the users input and displays the corrisponding information form the list
+
+        if (UI3 > 1)
+        {
+            Console.WriteLine("Invalid Index selection, skipping, Press any key to continue");// This line will display if the user make and invalid index selection
+        }
+        else
+        {
+            Console.WriteLine(intList[UI3]);
+            Console.WriteLine("Thankyou for your time have a nice day - end of line.");//This line is more for me so i can tell where the program is at
         }
         
-
 
         //    int[] numArray = new int[5];
         // numArray[0] = 5;
