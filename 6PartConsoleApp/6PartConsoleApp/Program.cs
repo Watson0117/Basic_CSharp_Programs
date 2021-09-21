@@ -14,7 +14,7 @@ namespace _6PartConsoleApp
             {
                 names[j] = names[j] + input;
             }
-            Console.WriteLine(j);
+            Console.WriteLine(names);
             Console.ReadLine();
         }
     }
