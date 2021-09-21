@@ -8,13 +8,13 @@ namespace _6PartConsoleApp
         {
             string[] names = { "Jesse", "Erik", "Daniel", "Adam" };
 
-            string input = Console.ReadLine();
+            //string input = Console.ReadLine();
 
-            for (int j = 0; j < names.Length; j++) ;
-            {
-                int j = 0;
-                names[j] = names[j] + input;
-            }
+            //for (int j = 0; j < names.Length; j++) ;
+            //{
+            //    int j = 0;
+            //    names[j] = names[j] + input;
+            //}
             Console.WriteLine(names);
             Console.ReadLine();
         }
