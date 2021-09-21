@@ -1,0 +1,13 @@
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\obj\Debug\netcoreapp3.1\6PartConsoleApp.csproj.AssemblyReference.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\obj\Debug\netcoreapp3.1\6PartConsoleApp.AssemblyInfoInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\obj\Debug\netcoreapp3.1\6PartConsoleApp.AssemblyInfo.cs
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\obj\Debug\netcoreapp3.1\6PartConsoleApp.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\bin\Debug\netcoreapp3.1\6PartConsoleApp.exe
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\bin\Debug\netcoreapp3.1\6PartConsoleApp.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\bin\Debug\netcoreapp3.1\6PartConsoleApp.runtimeconfig.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\bin\Debug\netcoreapp3.1\6PartConsoleApp.runtimeconfig.dev.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\bin\Debug\netcoreapp3.1\6PartConsoleApp.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\bin\Debug\netcoreapp3.1\6PartConsoleApp.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\obj\Debug\netcoreapp3.1\6PartConsoleApp.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\obj\Debug\netcoreapp3.1\6PartConsoleApp.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\6PartConsoleApp\6PartConsoleApp\obj\Debug\netcoreapp3.1\6PartConsoleApp.genruntimeconfig.cache
