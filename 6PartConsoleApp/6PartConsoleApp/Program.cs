@@ -7,15 +7,14 @@ namespace _6PartConsoleApp
         static void Main(string[] args)
         {
             string[] names = { "Jesse", "Erik", "Daniel", "Adam" };
+            Console.WriteLine("enter text");
+            string input = Console.ReadLine();
 
-            //string input = Console.ReadLine();
-
-            //for (int j = 0; j < names.Length; j++) ;
-            //{
-            //    int j = 0;
-            //    names[j] = names[j] + input;
-            //}
-            Console.WriteLine(names);
+            for (int j = 0; j < names.Length; j++)
+            {
+                names[j] = names[j] + input;
+            }
+            Console.WriteLine(j);
             Console.ReadLine();
         }
     }
