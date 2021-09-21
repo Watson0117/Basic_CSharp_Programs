@@ -6,7 +6,14 @@ namespace _6PartConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] names = { "Jesse", "Erik", "Daniel", "Adam" };
+            
+
+            for (int j = 0; j < names.Length; j++) ;
+            {
+                names[j] = j + Console.ReadLine();
+            }
+            Console.ReadLine();
         }
     }
 }
