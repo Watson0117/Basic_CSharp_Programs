@@ -125,8 +125,7 @@ namespace _6PartConsoleApp
 
             bool b = mnames.Contains(UImname);
 
-            Console.WriteLine("'{0}' is in the string '{1}': {2}",
-                              UImname, mnames, b);
+       
             foreach (string mname in mnames)
             {
                 if (b)
