@@ -122,35 +122,58 @@ namespace _6PartConsoleApp
             Console.WriteLine("List of names section 3");
             List<string> mnames = new List<string>() { "Adam", "Eric", "Adam", "Daniel" };
             string UImname = Console.ReadLine();
+
+            bool b = mnames.Contains(UImname);
+
+            Console.WriteLine("'{0}' is in the string '{1}': {2}",
+                              UImname, mnames, b);
             foreach (string mname in mnames)
             {
-                if (UImname == "Eric")
+                if (b)
                 {
-                    Console.WriteLine(mnames[1]);// depending on what the user typed they will get the corrisponding string in that index.
-                    Console.WriteLine("Index 1 ");
-                    break;
+                    int index = mnames.IndexOf(UImname);
+                    if (index >= 0)
+                        Console.WriteLine(UImname + "Is in the list at index position", UImname, index++);
+                    
                 }
-                if (UImname == "Adam")// if the user types Adam it will make this section work. 
-                {
-                    Console.WriteLine(mnames[0]);// each index is written to the console as wellas the index position
-                    Console.WriteLine("Index 0 ");// this seemed to be the easyest way to get the index to show im sure there a way to referecn it but 
-                    Console.WriteLine(mnames[2]);// I wont do that unless it is requiered so hopefully this will meet peramiters
-                    Console.WriteLine("Index 2 ");
-                    break;
-                }
-                if (UImname == "Daniel")
-                {
-                    Console.WriteLine(mnames[3]);// depending on what the user typed they will get the corrisponding string in that index.
-                    Console.WriteLine("Index 3 ");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Invalid");
-                    break;
-                }
+                //Console.WriteLine(mnames.Contains(UImname));
+
+                Console.ReadLine();
+
+
+
+
+
+
+
+
+                //if (UImname == "Eric")
+                //{
+                //    Console.WriteLine(mnames[1]);// depending on what the user typed they will get the corrisponding string in that index.
+                //    Console.WriteLine("Index 1 ");
+                //    break;
+                //}
+                //if (UImname == "Adam")// if the user types Adam it will make this section work. 
+                //{
+                //    Console.WriteLine(mnames[0]);// each index is written to the console as wellas the index position
+                //    Console.WriteLine("Index 0 ");// this seemed to be the easyest way to get the index to show im sure there a way to referecn it but 
+                //    Console.WriteLine(mnames[2]);// I wont do that unless it is requiered so hopefully this will meet peramiters
+                //    Console.WriteLine("Index 2 ");
+                //    break;
+                //}
+                //if (UImname == "Daniel")
+                //{
+                //    Console.WriteLine(mnames[3]);// depending on what the user typed they will get the corrisponding string in that index.
+                //    Console.WriteLine("Index 3 ");
+                //    break;
+                //}
+                //else
+                //{
+                //    Console.WriteLine("Invalid");
+                //    break;
+                //}
+
             }
-            Console.ReadLine();
         }
     }
 }
