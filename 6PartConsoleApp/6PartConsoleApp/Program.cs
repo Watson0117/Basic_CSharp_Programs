@@ -122,7 +122,7 @@ namespace _6PartConsoleApp
             Console.WriteLine("List of names section 3");
             List<string> mnames = new List<string>() { "Adam", "Eric", "Adam", "Daniel" };
             string UImname = Console.ReadLine();
-
+            // need to creaet a new empty list to add user input to and then check that list agansed any user input to say if it has been entered already
             bool b = mnames.Contains(UImname);
 
        
