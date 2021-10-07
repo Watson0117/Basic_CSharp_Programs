@@ -50,9 +50,9 @@ namespace _6PartConsoleApp
             }
 
 
-            //---------------------------------------------------------List part 4
+            ////---------------------------------------------------------List part 4
             Console.WriteLine("List of names section");
-            List<string> Snames = new List<string>() { "Jesse", "Eric", "Adam", "Daniel"};
+            List<string> Snames = new List<string>() { "Jesse", "Eric", "Adam", "Daniel" };
             string UISname = Console.ReadLine();
             foreach (string Sname in Snames)
             {
@@ -86,7 +86,7 @@ namespace _6PartConsoleApp
                     break;
                 }
             }
-            // part 5 ------------------------------------------
+            //// part 5 ------------------------------------------
 
             Console.WriteLine("List of names section 2");
             List<string> Hnames = new List<string>() { "Adam", "Eric", "Adam", "Daniel" };
@@ -119,60 +119,38 @@ namespace _6PartConsoleApp
                 }
             }
             //part 6 -----------------------------------
-            Console.WriteLine("List of names section 3");
-            List<string> mnames = new List<string>() { "Adam", "Eric", "Adam", "Daniel" };
-            string UImname = Console.ReadLine();
-            // need to creaet a new empty list to add user input to and then check that list agansed any user input to say if it has been entered already
-            bool b = mnames.Contains(UImname);
 
-       
-            foreach (string mname in mnames)
+            Console.WriteLine("List of names section 3");
             {
-                if (b)
+                List<string> mnamelist = new List<string>();
+
+                mnamelist.Add(new string("Adam"));
+                mnamelist.Add(new string("Eric"));
+                mnamelist.Add(new string("Bob"));
+                Console.WriteLine("Add a name.");
+                string AddName = Console.ReadLine();
+                
+                if (mnamelist.Contains(AddName))
                 {
-                    int index = mnames.IndexOf(UImname);
-                    if (index >= 0)
-                        Console.WriteLine(UImname + "Is in the list at index position", UImname, index++);
+                    Console.WriteLine("That Name is already exists please try again");
+                    foreach (string mname in mnamelist)
+                        Console.WriteLine(mname);
+
                     
                 }
-                //Console.WriteLine(mnames.Contains(UImname));
+                else
+                {
+                    Console.WriteLine("Name has be added.");
+                    mnamelist.Add(AddName);
+                    foreach (string mname in mnamelist)
+                        Console.WriteLine(mname);
 
-                Console.ReadLine();
+                }
 
-
-
-
-
-
-
-
-                //if (UImname == "Eric")
-                //{
-                //    Console.WriteLine(mnames[1]);// depending on what the user typed they will get the corrisponding string in that index.
-                //    Console.WriteLine("Index 1 ");
-                //    break;
-                //}
-                //if (UImname == "Adam")// if the user types Adam it will make this section work. 
-                //{
-                //    Console.WriteLine(mnames[0]);// each index is written to the console as wellas the index position
-                //    Console.WriteLine("Index 0 ");// this seemed to be the easyest way to get the index to show im sure there a way to referecn it but 
-                //    Console.WriteLine(mnames[2]);// I wont do that unless it is requiered so hopefully this will meet peramiters
-                //    Console.WriteLine("Index 2 ");
-                //    break;
-                //}
-                //if (UImname == "Daniel")
-                //{
-                //    Console.WriteLine(mnames[3]);// depending on what the user typed they will get the corrisponding string in that index.
-                //    Console.WriteLine("Index 3 ");
-                //    break;
-                //}
-                //else
-                //{
-                //    Console.WriteLine("Invalid");
-                //    break;
-                //}
-
+                
             }
+
+            Console.ReadLine();
         }
     }
 }
