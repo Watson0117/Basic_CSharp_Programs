@@ -22,7 +22,7 @@ namespace _6PartConsoleApp
             }
             Console.ReadLine();
 
-            //------------------------------------------------infinite loop
+            ////------------------------------------------------infinite loop
             Console.WriteLine("infinite Loop");
             int[] numbers = { 1, 2, 3, 4 };
             while (numbers[1] < 5)// as al the number in the array are less than 5 this loop would run indefinetly without the break on line 31 
@@ -50,7 +50,7 @@ namespace _6PartConsoleApp
             }
 
 
-            ////---------------------------------------------------------List part 4
+            //////---------------------------------------------------------List part 4
             Console.WriteLine("List of names section");
             List<string> Snames = new List<string>() { "Jesse", "Eric", "Adam", "Daniel" };
             string UISname = Console.ReadLine();
@@ -86,7 +86,7 @@ namespace _6PartConsoleApp
                     break;
                 }
             }
-            //// part 5 ------------------------------------------
+            ////// part 5 ------------------------------------------
 
             Console.WriteLine("List of names section 2");
             List<string> Hnames = new List<string>() { "Adam", "Eric", "Adam", "Daniel" };
@@ -121,31 +121,32 @@ namespace _6PartConsoleApp
             //part 6 -----------------------------------
 
             Console.WriteLine("List of names section 3");
+            Console.ReadLine();
             {
                 List<string> mnamelist = new List<string>();
-
-                mnamelist.Add(new string("Adam"));
                 mnamelist.Add(new string("Eric"));
-                mnamelist.Add(new string("Bob"));
-                Console.WriteLine("Add a name.");
-                string AddName = Console.ReadLine();
+                mnamelist.Add(new string("Adam"));
+                mnamelist.Add(new string("Adam"));
                 
-                if (mnamelist.Contains(AddName))
+               
+                List<string> mnamelist2 = new List<string>();
+                mnamelist2.Add(new string("Adam"));
+               
+                
+               foreach (string mname in mnamelist)
                 {
-                    Console.WriteLine("That Name is already exists please try again");
-                    foreach (string mname in mnamelist)
-                        Console.WriteLine(mname);
-
-                    
+                    if (mnamelist.Contains(mnamelist2[0]))
+                    {
+                        Console.WriteLine("That Name is already exists please try again");
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Name has be added.");
+                        mnamelist.Add(mnamelist2[0]);
+                    }
                 }
-                else
-                {
-                    Console.WriteLine("Name has be added.");
-                    mnamelist.Add(AddName);
-                    foreach (string mname in mnamelist)
-                        Console.WriteLine(mname);
-
-                }
+                
 
                 
             }
