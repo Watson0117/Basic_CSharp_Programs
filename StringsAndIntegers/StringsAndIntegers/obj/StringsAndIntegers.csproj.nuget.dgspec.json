@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Watson_Tech_Academy_repositories\\Basic_CSharp_Programs\\STRINGS AND INTEGERS\\StringsAndIntegers\\StringsAndIntegers\\StringsAndIntegers.csproj": {}
+    "D:\\Watson_Tech_Academy_repositories\\Basic_CSharp_Programs\\StringsAndIntegers\\StringsAndIntegers\\StringsAndIntegers.csproj": {}
   },
   "projects": {
-    "D:\\Watson_Tech_Academy_repositories\\Basic_CSharp_Programs\\STRINGS AND INTEGERS\\StringsAndIntegers\\StringsAndIntegers\\StringsAndIntegers.csproj": {
+    "D:\\Watson_Tech_Academy_repositories\\Basic_CSharp_Programs\\StringsAndIntegers\\StringsAndIntegers\\StringsAndIntegers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Watson_Tech_Academy_repositories\\Basic_CSharp_Programs\\STRINGS AND INTEGERS\\StringsAndIntegers\\StringsAndIntegers\\StringsAndIntegers.csproj",
+        "projectUniqueName": "D:\\Watson_Tech_Academy_repositories\\Basic_CSharp_Programs\\StringsAndIntegers\\StringsAndIntegers\\StringsAndIntegers.csproj",
         "projectName": "StringsAndIntegers",
-        "projectPath": "D:\\Watson_Tech_Academy_repositories\\Basic_CSharp_Programs\\STRINGS AND INTEGERS\\StringsAndIntegers\\StringsAndIntegers\\StringsAndIntegers.csproj",
+        "projectPath": "D:\\Watson_Tech_Academy_repositories\\Basic_CSharp_Programs\\StringsAndIntegers\\StringsAndIntegers\\StringsAndIntegers.csproj",
         "packagesPath": "C:\\Users\\watso\\.nuget\\packages\\",
-        "outputPath": "D:\\Watson_Tech_Academy_repositories\\Basic_CSharp_Programs\\STRINGS AND INTEGERS\\StringsAndIntegers\\StringsAndIntegers\\obj\\",
+        "outputPath": "D:\\Watson_Tech_Academy_repositories\\Basic_CSharp_Programs\\StringsAndIntegers\\StringsAndIntegers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages",

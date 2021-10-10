@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsAndIntegers", "StringsAndIntegers\StringsAndIntegers.csproj", "{5333C9CE-6868-4457-B440-CFB244FE1170}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsAndIntegers", "StringsAndIntegers\StringsAndIntegers.csproj", "{B30FFF55-F0F7-4CFB-A2BC-E5D1F10060E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5333C9CE-6868-4457-B440-CFB244FE1170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5333C9CE-6868-4457-B440-CFB244FE1170}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5333C9CE-6868-4457-B440-CFB244FE1170}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5333C9CE-6868-4457-B440-CFB244FE1170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30FFF55-F0F7-4CFB-A2BC-E5D1F10060E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30FFF55-F0F7-4CFB-A2BC-E5D1F10060E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30FFF55-F0F7-4CFB-A2BC-E5D1F10060E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30FFF55-F0F7-4CFB-A2BC-E5D1F10060E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {703369A5-27B1-4D61-B7C3-7FB2B4DBE2FC}
+		SolutionGuid = {79AC76CD-B38E-409E-9C44-02B9C7F0C606}
 	EndGlobalSection
 EndGlobal
