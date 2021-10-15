@@ -1,14 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+using static CallingMethodsAssignment.Program;
+
 
 namespace CallingMethodsAssignment
 {
     public class MathOps
     {
-        static void Main(string[] args)
+        public static int MODIV(int addend)  // takes in an int and returns and int
         {
-            string MOUI = UI.convertToint32();
+            return addend / 2;
+        }
+        public static int MOMUL(int addend)  // takes in an int and returns and int
+        {
+            return addend * 2;
+        }
+        public static int MOADD(int addend)  // takes in an int and returns and int
+        {
+            return addend + 500;
         }
     }
 }

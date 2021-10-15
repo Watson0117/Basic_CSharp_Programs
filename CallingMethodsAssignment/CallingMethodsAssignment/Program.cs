@@ -8,17 +8,25 @@ using static CallingMethodsAssignment.MathOps;
 
 namespace CallingMethodsAssignment
 {
-    public class Program
+    public static class Program
     {
         static void Main(string[] args)
         {
-            //MathOps MO = new MathOps.MODIV();
-            Console.WriteLine("Welcome, Please pick a number!");
-            string UI = Console.ReadLine();
-            Console.WriteLine(UI.MODIV);
-            Console.WriteLine(UI.MOMUL);
-            Console.WriteLine(UI.MOADD);
-            Console.WriteLine(UI.MathOps.MODIV);
+
+            Console.WriteLine("Welcome, Please pick a number!");// this line help me keep track of where the program is at
+            string UIS = Console.ReadLine();
+            int UII = Convert.ToInt32(UIS);
+
+            
+            int CUDIV = MathOps.MODIV(UII);// this line calle the method MODIV that is a part of the class MathOps
+            int CUMUL = MathOps.MOMUL(UII);// this line calle the method MOMUL that is a part of the class MathOps
+            int CUADD = MathOps.MOADD(UII);// this line calle the method MOADD that is a part of the class MathOps
+
+            // this line below help me keep track of where the program is at
+            Console.WriteLine("You picked the number " + UII + " This number will be Divided by 2, then multiplied by 2, and then have 500 added to it");
+            Console.WriteLine(CUDIV);//This line writes the value of CUDIV
+            Console.WriteLine(CUMUL);//This line writes the value of CUMUL
+            Console.WriteLine(CUADD);//This line writes the value of CUADD
         }
     }
 }
