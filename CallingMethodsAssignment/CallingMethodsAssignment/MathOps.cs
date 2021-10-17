@@ -20,7 +20,7 @@ namespace CallingMethodsAssignment
         }
         public static int MOADD(int addend)  // takes in an int and returns and int
         {
-            return addend + 500;
+            return addend + 500 ;
         }
     }
 }
