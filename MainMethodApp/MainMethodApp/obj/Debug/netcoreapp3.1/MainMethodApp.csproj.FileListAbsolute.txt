@@ -2,3 +2,12 @@ D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMeth
 D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMethodApp\obj\Debug\netcoreapp3.1\MainMethodApp.AssemblyInfoInputs.cache
 D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMethodApp\obj\Debug\netcoreapp3.1\MainMethodApp.AssemblyInfo.cs
 D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMethodApp\obj\Debug\netcoreapp3.1\MainMethodApp.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMethodApp\bin\Debug\netcoreapp3.1\MainMethodApp.exe
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMethodApp\bin\Debug\netcoreapp3.1\MainMethodApp.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMethodApp\bin\Debug\netcoreapp3.1\MainMethodApp.runtimeconfig.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMethodApp\bin\Debug\netcoreapp3.1\MainMethodApp.runtimeconfig.dev.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMethodApp\bin\Debug\netcoreapp3.1\MainMethodApp.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMethodApp\bin\Debug\netcoreapp3.1\MainMethodApp.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMethodApp\obj\Debug\netcoreapp3.1\MainMethodApp.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMethodApp\obj\Debug\netcoreapp3.1\MainMethodApp.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\MainMethodApp\MainMethodApp\obj\Debug\netcoreapp3.1\MainMethodApp.genruntimeconfig.cache

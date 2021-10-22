@@ -5,7 +5,7 @@ using static MainMethodApp.MathOps;
 
 namespace MainMethodApp
 {
-    class Program
+    public static class Program
     {
         static void Main(string[] args)// Is this not the Main()?
         {
