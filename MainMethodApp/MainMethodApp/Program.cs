@@ -14,7 +14,7 @@ namespace MainMethodApp
             decimal UID = Convert.ToDecimal(UIS);
             int UII = Convert.ToInt32(UIS);// this converts the string enetered by rhe user as a integer
 
-            MathOps mathops = new MathOps();
+            MathOps MathOps = new MathOps();
 
             //In the Main() method of the console app, instantiate the class and call the one method,
             //passing in an integer. Display the result to the screen.
@@ -33,7 +33,7 @@ namespace MainMethodApp
             //In the Main() method of the console app, instantiate the class and call the third
             //method, passing in a string that equates to an integer.Display the result to the screen.
 
-            int StrOutPut = MathOps.MoFun(UII);// this line calls the method mathops and returns a string
+            string StrOutPut = MathOps.MoFun(UIS);// this line calls the method mathops and returns a string
             Console.WriteLine(StrOutPut);
             //-------------------------------------------------------------------------------------------------------
 
