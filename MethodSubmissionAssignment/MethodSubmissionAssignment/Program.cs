@@ -15,19 +15,12 @@ namespace MethodSubmissionAssignment
             Class1 Class1 = new Class1();
 
 
-            
-            if (Num2 < 1) 
-            {
-                int OneEntry = Class1.Method1(Num1);// this line calls the method 
-                Console.WriteLine(OneEntry);
-            }
-            else
-            {
-                int TwoEntry = Class1.Method1(Num1, Num2);// this line calls the method 
-                Console.WriteLine(TwoEntry);
-            }
+            int OneEntry = Class1.Method1(Num1);// this line calls the method 
+            Console.WriteLine(OneEntry);
 
-            
+
+            int TwoEntry = Class1.Method1(Num1, Num2);// this line calls the method 
+            Console.WriteLine(TwoEntry);
 
         }
 
