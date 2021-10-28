@@ -16,8 +16,7 @@ namespace MethodClassSubmissionAssignment
 
             try
             {   
-                int TwoEntry = Class1.Method1(Num1, Num2);// this line calls the method 
-                Console.WriteLine(TwoEntry);
+                Class1.Method1(Number1: Num1, Number2: Num2);// this line calls the method   
             }
             catch
             {
