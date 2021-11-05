@@ -4,32 +4,46 @@ using System.Text;
 
 namespace ClassSubmissionAssignment
 {
-    public class Class1
+    public class Class1// Create a class.
     {
-        public void Method1(int Number1)  // takes in int and outputs an int
+
+        //---------------------------Method for overloading-----------------------------------------------
+        public void Method1(int Number1)  // In that class, create a void method that outputs an integer.
         {
- 
-        // Declaring variable
-        // without assigning value
-        int Num1 = Number1;
- 
-        // Pass variable i to the method
-        // using out keyword
-        Division(out Num1);
- 
-        // Display the value i
-        Console.WriteLine("The Division of the value is: {0}", Num1);
+            int Answer1 = Number1 / 2; // Have the method divide the data passed to it by 2.
+
+
+            Console.WriteLine(Answer1);//  Display the output to the screen.
         }
- 
-        // Method in which out parameter is passed
-        // and this method returns the value of
-        // the passed parameter
-        public static void Division(out int Number1)
+        //---------------------overloaded method.--------------------------------------------
+        public void Method1(int Number1, int Number2)  // In that class, create a void method that outputs an integer.
         {
-            int Num1;
-            Number1 = Num1 / 2;
-            Console.WriteLine(Number1);
+            int Answer = Number1 + Number2; // overload the method to have it add two numbers.
+
+
+            Console.WriteLine(Answer);//  Display the output to the screen.
+        }
+        
+
+        //--------Create a method with output parameters.-------------------------------------------------------
+        public void NumMan(out int x)  // In that class, create a void method that outputs an integer.
+        {
+            int temp = 5;
+            x = temp;
         }
 
+
     }
+    //--------------------------static class---------------------------------------------------------------------------
+    public static class Class2// Create a class - Declare a class to be static.
+    {
+        public static void Method2(int Number1, int Number2)  // In that class, create a void method that outputs an integer.
+        {
+            int Answer = Number1 * Number2; // Have the method divide the data passed to it by 2.
+
+
+            Console.WriteLine(Answer);//  Display the output to the screen.
+        }
+    }
+
 }
