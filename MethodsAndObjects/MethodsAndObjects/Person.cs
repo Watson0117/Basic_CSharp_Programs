@@ -9,21 +9,18 @@ namespace MethodsAndObjects
 
     public class Person
     {
-        public static string FirstName  { get; set;}
-        public static string LastName { get; set ; }
-        public string FullName = FirstName + LastName;
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        
 
         ///------------------------------------------------------------------------------------------------------------------------
         //Give this class a void method called SayName() that takes no parameters and simply writes the person's
         //full name to the console in the format of: “Name: [full name]”.
-        public void SayName(string FullName)
-        {
-            Console.WriteLine("Name: " + FullName);
+        public void SayName()
 
-        }
-        internal static void SayName(Employee a)
         {
-            throw new NotImplementedException();
+        string FullName = FirstName +" " + LastName;
+        Console.WriteLine("Name: " + FullName);
         }
 
     }

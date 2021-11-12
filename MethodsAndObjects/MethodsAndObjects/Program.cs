@@ -11,12 +11,11 @@ namespace MethodsAndObjects
 
             Employee A = new Employee();
             {
-                Person.FirstName = "Sample";
-                Person.LastName = "Student";
+                A.FirstName = "Sample";
+                A.LastName = "Student";
                 Employee.Id = 0117;
                 //Call the superclass method SayName() on the Employee object.
-                Employee.SayName(A);
-                
+                A.SayName();
             }
 
             Console.ReadLine();
