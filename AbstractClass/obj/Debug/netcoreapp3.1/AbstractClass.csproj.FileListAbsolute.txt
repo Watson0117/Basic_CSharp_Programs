@@ -1,0 +1,13 @@
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\bin\Debug\netcoreapp3.1\AbstractClass.exe
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\bin\Debug\netcoreapp3.1\AbstractClass.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\bin\Debug\netcoreapp3.1\AbstractClass.runtimeconfig.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\bin\Debug\netcoreapp3.1\AbstractClass.runtimeconfig.dev.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\bin\Debug\netcoreapp3.1\AbstractClass.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\bin\Debug\netcoreapp3.1\AbstractClass.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\obj\Debug\netcoreapp3.1\AbstractClass.csproj.AssemblyReference.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\obj\Debug\netcoreapp3.1\AbstractClass.AssemblyInfoInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\obj\Debug\netcoreapp3.1\AbstractClass.AssemblyInfo.cs
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\obj\Debug\netcoreapp3.1\AbstractClass.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\obj\Debug\netcoreapp3.1\AbstractClass.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\obj\Debug\netcoreapp3.1\AbstractClass.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AbstractClass\obj\Debug\netcoreapp3.1\AbstractClass.genruntimeconfig.cache
