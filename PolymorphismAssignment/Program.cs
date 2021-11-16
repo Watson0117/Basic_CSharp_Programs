@@ -15,8 +15,8 @@ namespace PolymorphismAssignment
 
             //Use polymorphism to create an object of type IQuittable and call the Quit() method on it.
             //Hint: an object can be of an interface type if it implements that specific interface.
-            IQuittable Done = new IQuittable();
-            Done.Quit(Done);
+            IQuittable Done = new Employee();
+            Done.Quit();
             Console.ReadLine();
         }
     }

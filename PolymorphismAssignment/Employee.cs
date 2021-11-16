@@ -14,10 +14,6 @@ namespace PolymorphismAssignment//Create another class called Employee and have 
             Console.WriteLine("Name: " + FullName);
 
         }
-        public void Quit(Employee employee)// implement the Quit() method in any way you choose.
-        {
-         
-            
-        }
+        
     }
 }
