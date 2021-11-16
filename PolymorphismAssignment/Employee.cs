@@ -16,9 +16,8 @@ namespace PolymorphismAssignment//Create another class called Employee and have 
         }
         public void Quit(Employee employee)// implement the Quit() method in any way you choose.
         {
-            throw new NotImplementedException();
-            //Use polymorphism to create an object of type IQuittable and call the Quit() method on it.
-            //Hint: an object can be of an interface type if it implements that specific interface.
+         
+            
         }
     }
 }
