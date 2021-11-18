@@ -6,7 +6,7 @@ namespace OperatorsAssignment
 {
     class Employee : Person
     {
-        public int EmployeeId { get; set; }
+        public static int EmployeeId { get; set; }
 
         public override void SayName()
         {

@@ -11,7 +11,7 @@ namespace OperatorsAssignment
                 employee.FirstName = "Sample";//with firstName “Sample”
                 employee.LastName = "Student";// and lastName “Student”. 
                 employee.EmployeeId = 0117;
-                employee.SayName();//Call the SayName() method on the object.
+                employee = EmployeeId == EmployeeId;//Call the SayName() method on the object.
             }
 
             Console.ReadLine();
