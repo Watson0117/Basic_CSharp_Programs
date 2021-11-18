@@ -6,7 +6,7 @@ namespace OperatorsAssignment
 {
     class Employee : Person
     {
-        public static int EmployeeId { get; set; }
+        public int EmployeeId { get; set; }
 
         public override void SayName()
         {
@@ -15,16 +15,19 @@ namespace OperatorsAssignment
 
         }
 
-        public static Employee operator ==(Employee EmployeeId, Person person)
+
+        public static bool operator ==(Employee emp1, Employee emp2)
         {
-            EmployeeId.Equals(EmployeeId);
-            Console.WriteLine("Employee 0117 Active");
-        }
-        public static Employee operator !=(Employee EmployeeId, Person person)
-        {
-            EmployeeId !=  EmployeeId;
-            Console.WriteLine("Employee 0117 NOT Active");
+
+            return emp1.EmployeeId == emp2.EmployeeId;
+
         }
 
+        public static bool operator !=(Employee emp1, Employee emp2)
+        {
+
+            return emp1.EmployeeId == emp2.EmployeeId;
+
+        }
     }
 }
