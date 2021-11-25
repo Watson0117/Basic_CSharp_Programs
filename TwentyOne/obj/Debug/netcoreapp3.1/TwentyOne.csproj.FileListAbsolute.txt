@@ -1,0 +1,13 @@
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.exe
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.runtimeconfig.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.runtimeconfig.dev.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.csproj.AssemblyReference.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.AssemblyInfoInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.AssemblyInfo.cs
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.genruntimeconfig.cache
