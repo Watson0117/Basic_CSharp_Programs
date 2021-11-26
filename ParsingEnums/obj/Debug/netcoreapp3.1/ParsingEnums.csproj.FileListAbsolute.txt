@@ -1,0 +1,13 @@
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\bin\Debug\netcoreapp3.1\ParsingEnums.exe
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\bin\Debug\netcoreapp3.1\ParsingEnums.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\bin\Debug\netcoreapp3.1\ParsingEnums.runtimeconfig.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\bin\Debug\netcoreapp3.1\ParsingEnums.runtimeconfig.dev.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\bin\Debug\netcoreapp3.1\ParsingEnums.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\bin\Debug\netcoreapp3.1\ParsingEnums.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\obj\Debug\netcoreapp3.1\ParsingEnums.csproj.AssemblyReference.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\obj\Debug\netcoreapp3.1\ParsingEnums.AssemblyInfoInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\obj\Debug\netcoreapp3.1\ParsingEnums.AssemblyInfo.cs
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\obj\Debug\netcoreapp3.1\ParsingEnums.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\obj\Debug\netcoreapp3.1\ParsingEnums.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\obj\Debug\netcoreapp3.1\ParsingEnums.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\ParsingEnums\obj\Debug\netcoreapp3.1\ParsingEnums.genruntimeconfig.cache

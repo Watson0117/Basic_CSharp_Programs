@@ -13,7 +13,7 @@ namespace TwentyOne
            
 
             Deck deck = new Deck();//this instanciates the deck object
-            deck.Shuffle(3);//this calls the shuffle method on the deck object
+            //deck.Shuffle(3);//this calls the shuffle method on the deck object
 
             foreach (Card card in deck.Cards)
             {
