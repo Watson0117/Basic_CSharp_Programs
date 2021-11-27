@@ -11,7 +11,8 @@ namespace ParsingEnums
             {
             Console.WriteLine("Please enter the current day of the week. Use a capital letter at the begining");//Prompt the user to enter the current day of the week.
             string Day = Console.ReadLine();//Assign the value to a variable of that enum data type you just created.
-          
+            
+            //Console.WriteLine(Day); 
             DateTime date = DateTime.Today;
             string Today = Convert.ToString(date.DayOfWeek);
 
@@ -19,9 +20,9 @@ namespace ParsingEnums
                 {
                     Console.WriteLine("Day Of The Week " + date.DayOfWeek);
                 }
-            else
+                else
                 {
-                    Console.WriteLine("Please enter an actual day of the week.");
+                    Console.WriteLine("That is not todays day of the week");
                 }
             
             }
@@ -30,6 +31,7 @@ namespace ParsingEnums
                 Console.WriteLine("Please enter an actual day of the week.");//have it print "Please enter an actual day of the week.” to the console if an error occurs.
             }
             
+        
         }
     }
 }
