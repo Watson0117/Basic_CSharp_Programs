@@ -8,8 +8,8 @@ namespace LambdaAssignment
 {
     public class Employee
     {
-        public static string FirstName { get; set; }
-        public static string LastName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public int ID { get; set; }
     }
 }

@@ -1,0 +1,4 @@
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\obj\Debug\netcoreapp3.1\LambdaAssignment.csproj.AssemblyReference.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\obj\Debug\netcoreapp3.1\LambdaAssignment.AssemblyInfoInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\obj\Debug\netcoreapp3.1\LambdaAssignment.AssemblyInfo.cs
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\obj\Debug\netcoreapp3.1\LambdaAssignment.csproj.CoreCompileInputs.cache
