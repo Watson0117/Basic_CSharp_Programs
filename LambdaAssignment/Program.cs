@@ -29,31 +29,41 @@ namespace LambdaAssignment
 
             };
 
+
+
+
+
+            List<Employee> Employees2 = new List<Employee>();
+
+
             foreach (Employee name in Employees)//Using a foreach loop, 
             {
-                List<Employee> Employees2 = new List<Employee>();
-
-                
-
-                if (Employees.FirstName == "Joe")
+                if (name.FirstName == "Joe")
                 {
-                    Employees2.Add(employee FirstName);//create a new list of all employees with the first name “Joe”.
-                    Console.WriteLine(name);
+                    Employees2.Add(name);//create a new list of all employees with the first name “Joe”.
+                    Console.WriteLine(name.FirstName + " " + name.LastName);
+                    
                 }
             }
+
+            Console.ReadLine();
+
+            List<Employee> newList = Employees.Where(x => x.FirstName == "Joe").ToList();//Perform the same action again, but this time with a lambda expression.
+            Console.WriteLine(newList[0]);
+            Console.WriteLine(newList[1]);
+
+            Console.ReadLine();
         }
     }
-}
-
-//
-//foreach(var in Employees)
-//Console.WriteLine(student.Id + ", " + student.Name);
+}//Employees.FirstName. foreach Employee name in Employees)
 
 
 
 
 
-//Perform the same action again, but this time with a lambda expression.
+
+
+
 
 //Using a lambda expression, make a list of all employees with an Id number greater than 5.
 

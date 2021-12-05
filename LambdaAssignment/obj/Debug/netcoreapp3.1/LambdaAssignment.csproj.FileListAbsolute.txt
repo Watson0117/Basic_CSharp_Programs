@@ -2,3 +2,12 @@ D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\obj\D
 D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\obj\Debug\netcoreapp3.1\LambdaAssignment.AssemblyInfoInputs.cache
 D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\obj\Debug\netcoreapp3.1\LambdaAssignment.AssemblyInfo.cs
 D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\obj\Debug\netcoreapp3.1\LambdaAssignment.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\bin\Debug\netcoreapp3.1\LambdaAssignment.exe
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\bin\Debug\netcoreapp3.1\LambdaAssignment.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\bin\Debug\netcoreapp3.1\LambdaAssignment.runtimeconfig.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\bin\Debug\netcoreapp3.1\LambdaAssignment.runtimeconfig.dev.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\bin\Debug\netcoreapp3.1\LambdaAssignment.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\bin\Debug\netcoreapp3.1\LambdaAssignment.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\obj\Debug\netcoreapp3.1\LambdaAssignment.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\obj\Debug\netcoreapp3.1\LambdaAssignment.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\LambdaAssignment\obj\Debug\netcoreapp3.1\LambdaAssignment.genruntimeconfig.cache
