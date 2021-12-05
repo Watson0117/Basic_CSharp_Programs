@@ -47,7 +47,7 @@ ToDo
 List of programs held within, this list will function as a link list to navigate to a spacifip project easily.
 ### Program List
 <li>
-    <a href="#acme-accounting">Acme Accounting</a>
+    <a href="#anonymous-income-comparison-program">Anonymous Income Comparison Program</a>
 </li>
 
 ### Built With
@@ -63,10 +63,10 @@ ToDo
 List of programs with discriptions and gif images
 
 
-### Acme Accounting 
+### Anonymous Income Comparison Program
   The purpos of the program was to alloy comparisons between two employees ie wages hours and such //Add more detailed description as well as images gifs.
 </br>
-[Github - AcmeAccounting](https://github.com/Watson0117/Basic_CSharp_Programs/tree/master/AcmeAccounting)
+[Github - Anonymous Income Comparison Program](https://github.com/Watson0117/Basic_CSharp_Programs/tree/master/AcmeAccounting)
 
 
 <!-- CONTACT -->
