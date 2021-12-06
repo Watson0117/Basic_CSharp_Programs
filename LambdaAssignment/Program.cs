@@ -42,16 +42,27 @@ namespace LambdaAssignment
                 {
                     Employees2.Add(name);//create a new list of all employees with the first name “Joe”.
                     Console.WriteLine(name.FirstName + " " + name.LastName);
-                    
+
                 }
             }
 
             Console.ReadLine();
 
             List<Employee> newList = Employees.Where(x => x.FirstName == "Joe").ToList();//Perform the same action again, but this time with a lambda expression.
-            Console.WriteLine(newList[0]);
-            Console.WriteLine(newList[1]);
 
+            foreach (Employee name in newList)
+            {
+                Console.WriteLine(name.FirstName + " " + name.LastName);
+            }
+            Console.ReadLine();
+
+
+            List<Employee> newlist2 = Employees.Where(x => x.ID > 5).ToList();//Using a lambda expression, make a list of all employees with an Id number greater than 5.
+            
+            foreach (Employee id in newlist2)
+            {
+                Console.WriteLine(id.FirstName + " " + id.LastName + " " + id.ID);
+            }
             Console.ReadLine();
         }
     }
@@ -65,5 +76,5 @@ namespace LambdaAssignment
 
 
 
-//Using a lambda expression, make a list of all employees with an Id number greater than 5.
+
 
