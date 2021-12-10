@@ -12,14 +12,15 @@ namespace TwentyOne
         {
             Cards = new List<Card>();//this instanciates the property cards as a empty list
             
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 13; i++)//this line loops through the faces avalible to card
             {
-                for (int j = 0; j < 4; j++)
+                for (int j = 0; j < 4; j++)//this line loopes through the suits 4 times for each face.
                 {
-                    Card card = new Card();
-                    card.Face = (Face)i;
-                    card.Suit = (Suit)j;
-                    Cards.Add(card);
+                    Card card = new Card();//this creates a new card
+                    card.Face = (Face)i;//this assigne a face to the card
+                    card.Suit = (Suit)j;//this line set the suit
+                    Cards.Add(card);//this add the card to the deck, when done like this it will 
+                    //run 52 times creating 52 cards in the deck
                 }
             }
         }

@@ -10,40 +10,35 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-           
-
-            Deck deck = new Deck();//this instanciates the deck object
-            //deck.Shuffle(3);//this calls the shuffle method on the deck object
-
-            foreach (Card card in deck.Cards)
+            Console.WriteLine("Welcome the the Bobop Hotel and Casino!!! Whats your name?");
+            string playerName = Console.ReadLine();
+            Console.WriteLine("And how much money do you intend to use today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playerName);
+            string answer = Console.ReadLine().ToLower();
+            if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")// this make the program more robust by accepting answer that mean yes but may not acculy say yes
             {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-                //above goes through the list of cards and prints each one to the console
+                Player player = new Player(playerName, bank);// this creats a new player and bank for that player
+                Game game = new TwentyOneGame();
+                game += player;//this add the player to the game
+                player.isActivelyPlaying = true;//this sets the player to active
+                while (player.isActivelyPlaying && player.Balance > 0)//this checks if the player is activlyplaying value changes or if there bank drops to 0
+                {
+                    game.Play();
+                }
+                if (player.Balance <= 0)
+                {
+                    Console.WriteLine("sorry but your out of money");
+                }
+                game -= player;//this removes the player from the game if the players is activlyplaying value changes or if there bank dropes to 0
+                
+                Console.WriteLine("Thank you for playing!");
             }
-            Console.WriteLine("Number of cards in deck: {0}", deck.Cards.Count);// this calles the property count that is built into list
+            //if the player answers no to the question do you want to play 21 
+            //it will skipp the above loop and go here.
+            Console.WriteLine("Feel free to look around the Bebop have a nice day!");
             Console.ReadLine();
         }
-
-        //Game game = new TwentyOneGame();// this line demonstrates Polymorphisim. we craet a game object but call the TwentyOneGame object.
-
-
-        //TwentyOneGame game = new TwentyOneGame();//TwentyOne Game inherits from the game class
-        //game.Players = new List<string>() { "Vlad", "Greg", "Ron" };
-        //game.ListPlayers();//In these two lines we are calling a superclass with game. 
-        ////game.Play(); //The Play method is uniqe to the TwentyOneGame method and if we changer the Line above to game instedad of TwentyOneGame it would be inaccessable
-        //Console.ReadLine();// We dident have to instanciat the game class because it was inherited by the TwentyOneGame class
-
-
-
-
-        //public static Deck Shuffle(Deck deck, int times)
-        //{
-        //    for (int i = 0; i < times; i++)
-        //    {
-        //        deck = Shuffle(deck);
-        //    }
-        //    return deck;
-        //}
 
     }
 }

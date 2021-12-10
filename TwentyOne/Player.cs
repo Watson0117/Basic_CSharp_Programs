@@ -8,11 +8,32 @@ namespace TwentyOne
 {
     public class Player
     {
-        public  List<Card> Hand { get; set; }
+        public Player(string name, int beginningBalance)
+        {
+            Hand = new List<Card>();
+            Balance = beginningBalance;
+            Name = name;
+        }
+        private List<Card> _hand = new List<Card>();
+        public  List<Card> Hand { get { return _hand; } set { _hand = value; } }
         public int Balance { get; set; }
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
+        public bool Stay { get; set; }
 
+        public bool Bet(int amount)
+        {
+            if (Balance - amount < 0)
+            {
+                Console.WriteLine("You do not have enough money");
+                return false;
+            }
+            else
+            {
+                Balance -= amount;
+                return true;
+            }
+        }
         public static Game operator +(Game game, Player player)//this line allows us th=o use game += player to add a player the the plasyer list
         {
             game.Players.Add(player);

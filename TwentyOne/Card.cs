@@ -11,6 +11,11 @@ namespace TwentyOne
         
         public Suit Suit { get; set; }//Suit is a property of the class "Card" It is set to public to allow it to be accessed by othor parts of the program.
         public Face Face { get; set; }//Face is the secodn property of the card class and is set to public
+
+        public override string ToString()
+        {
+            return string.Format("{0} of {1}", Face);
+        }
     }
     public enum Suit
     {
