@@ -1,0 +1,13 @@
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\bin\Debug\netcoreapp3.1\DateTimeAssignment.exe
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\bin\Debug\netcoreapp3.1\DateTimeAssignment.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\bin\Debug\netcoreapp3.1\DateTimeAssignment.runtimeconfig.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\bin\Debug\netcoreapp3.1\DateTimeAssignment.runtimeconfig.dev.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\bin\Debug\netcoreapp3.1\DateTimeAssignment.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\bin\Debug\netcoreapp3.1\DateTimeAssignment.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\obj\Debug\netcoreapp3.1\DateTimeAssignment.csproj.AssemblyReference.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\obj\Debug\netcoreapp3.1\DateTimeAssignment.AssemblyInfoInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\obj\Debug\netcoreapp3.1\DateTimeAssignment.AssemblyInfo.cs
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\obj\Debug\netcoreapp3.1\DateTimeAssignment.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\obj\Debug\netcoreapp3.1\DateTimeAssignment.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\obj\Debug\netcoreapp3.1\DateTimeAssignment.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\DateTimeAssignment\obj\Debug\netcoreapp3.1\DateTimeAssignment.genruntimeconfig.cache
