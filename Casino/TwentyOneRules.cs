@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino.TwentyOne
 {
     public class TwentyOneRules
     {
@@ -40,9 +40,12 @@ namespace TwentyOne
                 result[i] = value;//
             }
             return result;
-        }   
+        }
 
-        public static bool CheckForBackJack(List<Card> Hand)
+        public static bool CheckForBackJack(List<Card> Hand)// NOTE############## I expanded rule so at anytime the player or dealer
+            //has black jack it will give a blackjack. but it still goes to next step and asked to keep playing ie i had black jack.
+            //but when say y playagain the dealer kept getting cards even tho i had blackjack. need to expand rules for blackjack 
+            //in TwentyOneGame so it ends the round when somone gets blackjack, not sure how yet.
         {
             int[] possibleValues = GetAllPossibleHandValues(Hand);
             int value = possibleValues.Max();// gets the maximum possible value of the players hand
@@ -82,6 +85,27 @@ namespace TwentyOne
             else if (playerScore < dealerScore) return false;
             else return null;
 
+        }
+        public static int HandValuesP(List<Card> PlayerHand)
+        {
+            int[] playerResults = GetAllPossibleHandValues(PlayerHand);
+
+            int playerScore = playerResults.Where(x => x < 22).Max();
+           // int handValues = Convert.ToInt32(playerScore && dealerScore);
+            Console.Write("\n\nPlayers hand value: ");
+            return playerScore;
+
+        }
+
+
+
+        public static int HandValuesD(List<Card> DealerHand)
+        {
+            int[] dealerResults = GetAllPossibleHandValues(DealerHand);
+            int dealerScore = dealerResults.Where(x => x < 22).Max();
+            Console.Write("\n\nDealers hand value: ");
+            return dealerScore;
+            
         }
     }
 }

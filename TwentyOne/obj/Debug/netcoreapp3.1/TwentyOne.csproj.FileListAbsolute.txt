@@ -11,3 +11,6 @@ D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\obj\Debug\ne
 D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.dll
 D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.pdb
 D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.genruntimeconfig.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\bin\Debug\netcoreapp3.1\Casino.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\bin\Debug\netcoreapp3.1\Casino.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.csproj.CopyComplete

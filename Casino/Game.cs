@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {
     public abstract class Game//the game class is amade abstract so it can not be instanciated it can only be inherited from.
     {

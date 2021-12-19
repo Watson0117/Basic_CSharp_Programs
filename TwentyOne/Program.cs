@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using Casino;
+using Casino.TwentyOne;
 
 namespace TwentyOne
 {
@@ -10,7 +13,7 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome the the Bobop Hotel and Casino!!! Whats your name?");
+            Console.WriteLine("Welcome the the Bebop Hotel and Casino!!! Whats your name?");
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money do you intend to use today?");
             int bank = Convert.ToInt32(Console.ReadLine());

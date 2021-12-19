@@ -1,0 +1,9 @@
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\Casino\bin\Debug\netcoreapp3.1\Casino.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\Casino\bin\Debug\netcoreapp3.1\Casino.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\Casino\bin\Debug\netcoreapp3.1\Casino.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\Casino\obj\Debug\netcoreapp3.1\Casino.csproj.AssemblyReference.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\Casino\obj\Debug\netcoreapp3.1\Casino.AssemblyInfoInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\Casino\obj\Debug\netcoreapp3.1\Casino.AssemblyInfo.cs
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\Casino\obj\Debug\netcoreapp3.1\Casino.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\Casino\obj\Debug\netcoreapp3.1\Casino.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\Casino\obj\Debug\netcoreapp3.1\Casino.pdb

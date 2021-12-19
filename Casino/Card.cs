@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {   //A class is a design or model of an object. like the plans on how to make it.
     public class Card// the card class is set to public so it can be used by other parts of the program
     {
@@ -14,7 +14,7 @@ namespace TwentyOne
 
         public override string ToString()
         {
-            return string.Format("{0} of {1}", Face);
+            return string.Format("{0} of {1}", Face, Suit);
         }
     }
     public enum Suit
