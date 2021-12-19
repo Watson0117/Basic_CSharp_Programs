@@ -67,7 +67,7 @@ namespace Casino.TwentyOne
                 }
                 Console.Write("Dealer: ");
                 Dealer.Deal(Dealer.Hand);
-                if (i > 0)//if (i == 1) checks if the dealer has 2 cards if so it checks for blackjack
+                if (i >= 1)//if (i == 1) checks if the dealer has 2 cards if so it checks for blackjack
                 {
                     bool blackjack = TwentyOneRules.CheckForBackJack(Dealer.Hand);// checks the dealers hand for blackjack
                     if (blackjack)// if the dealer has blackjack do the following
