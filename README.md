@@ -1,4 +1,3 @@
-# 
 C# repository for TTA course
 
 
@@ -44,7 +43,7 @@ C# repository for TTA course
 ## Overview
 
 ToDo
-List of programs held within, this list will function as a link list to navigate to a spacifip project easily.
+List of programs held within, this list will function as a link list to navigate to a specific project easily.
 ### Program List
 <li>
     <a href="#anonymous-income-comparison-program">Anonymous Income Comparison Program</a>
@@ -52,7 +51,7 @@ List of programs held within, this list will function as a link list to navigate
 
 ### Built With
 
-The majority of programs withing the repositoory are all built using C# on Visual studio.
+The majority of programs withing the repository are all built using C# on Visual studio.
 
 * [VisualStudio](https://visualstudio.microsoft.com/)
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
@@ -60,11 +59,11 @@ The majority of programs withing the repositoory are all built using C# on Visua
 <!-- Programs -->
 ## Programs
 ToDo
-List of programs with discriptions and gif images
+List of programs with descriptions and gif images
 
 
 ### Anonymous Income Comparison Program
-  The purpos of the program was to alloy comparisons between two employees ie wages hours and such //Add more detailed description as well as images gifs.
+  The purpose of the program was to alloy comparisons between two employees ie wages hours and such //Add more detailed description as well as images gifs.
 </br>
 [Github - Anonymous Income Comparison Program](https://github.com/Watson0117/Basic_CSharp_Programs/tree/master/AcmeAccounting)
 
@@ -77,7 +76,4 @@ Joshua Watson - <a href=mailto:watson0117@gmail.com?>Contact Me</a>
 Main Github Link: [https://github.com/Watson0117](https://github.com/Watson0117)
 </br>
 Project Link: [https://github.com/Watson0117/Basic_CSharp_Programs](https://github.com/Watson0117/Basic_CSharp_Programs)
-
-
-
 
