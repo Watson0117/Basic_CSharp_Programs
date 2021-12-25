@@ -17,10 +17,11 @@ C# repository for TTA course
     This will is my current repository for all TechAcademy projects using C#.
     <br />
     <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">C# documentation</a>
-    ·
+    ●
     <a href=mailto:watson0117@gmail.com?>Email Me</a>
   </p>
 </p>
+<!-- ●  · -->
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
