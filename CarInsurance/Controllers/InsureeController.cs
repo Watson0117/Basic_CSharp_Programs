@@ -51,11 +51,55 @@ namespace CarInsurance.Controllers
             if (ModelState.IsValid)
             {
                 db.Insurees.Add(insuree);
+                int preQuote = 50;
+
+                int DOB = insuree.DateOfBirth.Year;
+                int year = insuree.CarYear;
+                string make = insuree.CarMake;
+                string model = insuree.CarModel;
+                int DobFee = 0; 
+                int yearFee = 0; 
+                int makeFee = 0; 
+                int modelFee = 0;
+
+                if (DOB <= 18 && DOB < 19) { int Dobfee = 100; }
+                else if (DOB >= 19 && DOB <= 25) { int Dobfee = 50; }
+                else if (DOB > 25) { int Dobfee = 25; }
+
+                if (year < 2000 || year > 2015) { int yearFee = 25; }
+                else { int yearFee = 0; }
+
+                if (make == "Porsche") { int makeFee = 25; }
+                else { int makeFee = 0; }
+
+                if (make == "Porsche" && model == "911 Carrera") { int modelFee = 25; }
+                else { int modelFee = 0; }
+                int preTotal = DobFee + yearFee + modelFee;
+                //If the car's Make is a Porsche, add $25 to the price.
+
+                //If the car's Make is a Porsche and its model is a 911 Carrera, add an additional $25 to the price.
+
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
             return View(insuree);
+        }
+
+        public int insuranceDetermination(int insuree DateOfBirth)
+        {
+            int preQuote = 50;
+
+            int DOB = insuree.DateOfBirth.Year;
+            if (DOB <= 18 && DOB < 19){int Dobfee = 100;}
+            else if (DOB >= 19 && DOB <= 25)
+            {
+                int Dobfee = 0;
+            }
+            else if (DOB >= 25)
+            {
+
+            }
         }
 
         // GET: Insuree/Edit/5
