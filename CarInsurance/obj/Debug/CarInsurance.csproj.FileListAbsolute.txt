@@ -80,3 +80,4 @@ D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\CarInsurance\obj\Debug
 D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\CarInsurance\obj\Debug\CarInsurance.csproj.CopyComplete
 D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\CarInsurance\obj\Debug\CarInsurance.dll
 D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\CarInsurance\obj\Debug\CarInsurance.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\CarInsurance\obj\Debug\CarInsurance.csproj.AssemblyReference.cache
