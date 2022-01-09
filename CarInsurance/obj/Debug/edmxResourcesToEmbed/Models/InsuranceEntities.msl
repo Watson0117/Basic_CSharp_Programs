@@ -2,7 +2,7 @@
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="InsuranceModelStoreContainer" CdmEntityContainer="InsuranceEntities">
     <EntitySetMapping Name="Insurees">
-      <EntityTypeMapping TypeName="InsuranceModel.Insuree">
+      <EntityTypeMapping TypeName="IsTypeOf(InsuranceModel.Insuree)">
         <MappingFragment StoreEntitySet="Insurees">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="FirstName" ColumnName="FirstName" />
