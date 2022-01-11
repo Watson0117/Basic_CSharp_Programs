@@ -25,7 +25,7 @@ namespace CarInsurance.Controllers
 
 
         // GET: Admin
-        public ActionResult AdIndex()
+        public ActionResult Admin()
         {
             return View(db.Insurees.ToList());
         }
