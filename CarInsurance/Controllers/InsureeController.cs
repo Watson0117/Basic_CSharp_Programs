@@ -21,6 +21,18 @@ namespace CarInsurance.Controllers
             return View(db.Insurees.ToList());
         }
 
+
+
+
+        // GET: Admin
+        public ActionResult AdIndex()
+        {
+            return View(db.Insurees.ToList());
+        }
+
+
+
+
         // GET: Insuree/Details/5
         public ActionResult Details(int? id)
         {
@@ -42,6 +54,7 @@ namespace CarInsurance.Controllers
             return View();
         }
 
+
         // POST: Insuree/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
@@ -55,20 +68,10 @@ namespace CarInsurance.Controllers
 
                 int baseFee = 50;//Start with a base of $50 / month.
 
-                int DOB = insuree.DateOfBirth.Year;
-                int year = insuree.CarYear;
-                string make = insuree.CarMake;
-                string model = insuree.CarModel;
-                int DobFee = 0;
-                int yearFee = 0;
-                int makeFee = 0;
-                int modelFee = 0;
-                decimal quoteTotal = insuree.Quote;
-                bool fullCoverage = insuree.CoverageType;
-                double duiFee = 0;
-                double fullCoverageFee = 0;
-                bool dui = insuree.DUI;
-                int speedTickets = insuree.SpeedingTickets;
+                int DOB = insuree.DateOfBirth.Year; int year = insuree.CarYear; string make = insuree.CarMake;
+                string model = insuree.CarModel; bool fullCoverage = insuree.CoverageType; double duiFee = 0;
+                int DobFee = 0; int yearFee = 0; int makeFee = 0; int modelFee = 0; bool dui = insuree.DUI;
+                double fullCoverageFee = 0; int speedTickets = insuree.SpeedingTickets;
 
                 if (DOB <= 18 && DOB < 19) { DobFee = 100; }//If the user is 18 and under, add $100 to the monthly total.
                 else if (DOB >= 19 && DOB <= 25) { DobFee = 50; }//If the user is between 19 and 25, add $50 to the monthly total.
@@ -127,20 +130,10 @@ namespace CarInsurance.Controllers
                 db.Entry(insuree).State = EntityState.Modified;
                 int baseFee = 50;//Start with a base of $50 / month.
 
-                int DOB = insuree.DateOfBirth.Year;
-                int year = insuree.CarYear;
-                string make = insuree.CarMake;
-                string model = insuree.CarModel;
-                int DobFee = 0;
-                int yearFee = 0;
-                int makeFee = 0;
-                int modelFee = 0;
-                decimal quoteTotal = insuree.Quote;
-                bool fullCoverage = insuree.CoverageType;
-                double duiFee = 0;
-                double fullCoverageFee = 0;
-                bool dui = insuree.DUI;
-                int speedTickets = insuree.SpeedingTickets;
+                int DOB = insuree.DateOfBirth.Year; int year = insuree.CarYear; string make = insuree.CarMake;
+                string model = insuree.CarModel; bool fullCoverage = insuree.CoverageType; double duiFee = 0;
+                int DobFee = 0; int yearFee = 0; int makeFee = 0; int modelFee = 0; bool dui = insuree.DUI;
+                double fullCoverageFee = 0; int speedTickets = insuree.SpeedingTickets;
 
                 if (DOB <= 18 && DOB < 19) { DobFee = 100; }//If the user is 18 and under, add $100 to the monthly total.
                 else if (DOB >= 19 && DOB <= 25) { DobFee = 50; }//If the user is between 19 and 25, add $50 to the monthly total.
@@ -192,6 +185,23 @@ namespace CarInsurance.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
 
         protected override void Dispose(bool disposing)
         {
