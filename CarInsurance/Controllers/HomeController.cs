@@ -34,20 +34,29 @@ namespace CarInsurance.Controllers
             using (InsuranceEntities db = new InsuranceEntities())
             {
                 var insurees = db.Insurees;
-                var insureeVms = new List<InsureeVm>();
+                var insureeVms = new List<Insuree>();
                 foreach ( var insuree in insurees)
                 {
-                    var insureeVm = new InsureeVm();
+                    var insureeVm = new Insuree();
                     insureeVm.FirstName = insuree.FirstName;
                     insureeVm.LastName = insuree.LastName;
-                    insuree.EmailAddress = insuree.EmailAddress;
+                    insureeVm.EmailAddress = insuree.EmailAddress;
                     insureeVm.Quote = (decimal)insuree.Quote;
                     insureeVms.Add(insureeVm);
                 }
                 return View(insureeVms);    
             }
 
-           
+
+            //The model item passed into the dictionary is of type 
+            //    'System.Collections.Generic.List`1[CarInsurance.ViewModels.InsureeVm]'
+            //    , but this dictionary requires a model item of type 
+            //    'System.Collections.Generic.IEnumerable`1[CarInsurance.Models.Insuree]'
+
+
+
+
+
         }
 
     }

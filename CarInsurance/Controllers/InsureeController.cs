@@ -20,19 +20,6 @@ namespace CarInsurance.Controllers
         {
             return View(db.Insurees.ToList());
         }
-
-
-
-
-        // GET: Admin
-        public ActionResult Admin()
-        {
-            return View(db.Insurees.ToList());
-        }
-
-
-
-
         // GET: Insuree/Details/5
         public ActionResult Details(int? id)
         {
@@ -185,23 +172,6 @@ namespace CarInsurance.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
 
         protected override void Dispose(bool disposing)
         {
