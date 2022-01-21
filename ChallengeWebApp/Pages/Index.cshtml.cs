@@ -19,7 +19,12 @@ namespace ChallengeWebApp.Pages
 
         public void OnGet()
         {
-
+            string dateTimeNow = DateTime.Now.ToString();
+            ViewData["TimeStamp"] = dateTimeNow;
         }
+
+        
+
+
     }
 }
