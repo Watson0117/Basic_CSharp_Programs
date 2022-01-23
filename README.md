@@ -62,20 +62,23 @@ The majority of programs withing the repository are all built using C# on Visual
 
 <!-- Programs -->
 ## Programs
-ToDo
-List of programs with descriptions and gif images
+The Programs withing this repository are primarily composed of C# but use several other resources depending on the project or goal. The specifics of some of the programs are detailed below but many are simple concept programs meant to demonstrate a specific tool or use. For instance the Polymorphism Assignment demonstrates Polymorphism and that's it. So some programs are not detailed below but are still good examples.
+// make a master program that demonstrates all the concepts that some of the individual programs use. Such as the Polymorphism and Enums. just consolidate all of them into a main concepts file.
+<hr>
 
 
 ### Anonymous Income Comparison Program
-  The purpose of the program was to alloy comparisons between two employees ie wages hours and such //Add more detailed description as well as images gifs.
+The purpose of the program was to alloy comparisons between two employees ie wages hours and such //Add more detailed description as well as images gifs.
 </br>
 [Github - Anonymous Income Comparison Program](https://github.com/Watson0117/Basic_CSharp_Programs/tree/master/AcmeAccounting)
+<hr>
 
 
 ### Car Insurance Program
 This is an MVC application that mimics a car insurance website. It can take information and return quotes based off of several factors. It then returns that result to the user and adds there information to a database. An admin page is used to view all quotes issues by the site.
 </br>
 [Github - Car Insurance Program](https://github.com/Watson0117/Basic_CSharp_Programs/tree/master/CarInsurance)
+<hr>
 
 
 <!-- CONTACT -->
