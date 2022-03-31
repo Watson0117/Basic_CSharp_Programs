@@ -1,0 +1,14 @@
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\bin\Debug\netcoreapp3.1\AICP.exe
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\bin\Debug\netcoreapp3.1\AICP.deps.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\bin\Debug\netcoreapp3.1\AICP.runtimeconfig.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\bin\Debug\netcoreapp3.1\AICP.runtimeconfig.dev.json
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\bin\Debug\netcoreapp3.1\AICP.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\bin\Debug\netcoreapp3.1\AICP.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\obj\Debug\netcoreapp3.1\AICP.csproj.AssemblyReference.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\obj\Debug\netcoreapp3.1\AICP.AssemblyInfoInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\obj\Debug\netcoreapp3.1\AICP.AssemblyInfo.cs
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\obj\Debug\netcoreapp3.1\AICP.csproj.CoreCompileInputs.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\obj\Debug\netcoreapp3.1\AICP.dll
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\obj\Debug\netcoreapp3.1\AICP.pdb
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\obj\Debug\netcoreapp3.1\AICP.genruntimeconfig.cache
+D:\Watson_Tech_Academy_repositories\Basic_CSharp_Programs\AICP\AICP\obj\Debug\netcoreapp3.1\AICP.GeneratedMSBuildEditorConfig.editorconfig
